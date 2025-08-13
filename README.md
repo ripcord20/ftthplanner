@@ -217,7 +217,7 @@ CREATE USER 'ftth_user'@'localhost' IDENTIFIED BY 'secure_password_here';
 GRANT ALL PRIVILEGES ON ftth_planner.* TO 'ftth_user'@'localhost';
 FLUSH PRIVILEGES;
 USE ftth_planner;
-SOURCE /path/to/database.sql;
+SOURCE /var/www/html/ftthplanner/database.sql;
 EXIT;
 ```
 
@@ -943,5 +943,6 @@ checkPermission();
 
 
 *Copyright © 2024 FTTH Planner Team. Licensed under MIT License.*
+
 
 
