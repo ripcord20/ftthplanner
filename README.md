@@ -226,7 +226,7 @@ EXIT;
 ```bash
 # Via Git (recommended)
 cd /var/www/html
-sudo git clone https://github.com/your-repo/ftthplanner.git
+sudo git clone https://github.com/ripcord20/ftthplanner.git
 sudo chown -R www-data:www-data ftthplanner/
 sudo chmod -R 755 ftthplanner/
 
@@ -939,5 +939,6 @@ checkPermission();
 ---
 
 **🎯 FTTH Planner - Revolutionizing Infrastructure Planning in Indonesia!**
+
 
 *Copyright © 2024 FTTH Planner Team. Licensed under MIT License.*
