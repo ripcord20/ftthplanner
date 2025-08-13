@@ -200,8 +200,8 @@ sudo apt install -y php8.1 php8.1-mysql php8.1-curl php8.1-mbstring php8.1-xml p
 
 
 # Enable Apache modules
-sudo a2enmod rewrite
 sudo systemctl restart apache2
+sudo a2enmod rewrite
 ```
 
 ### **Step 2: Database Setup**
@@ -943,4 +943,5 @@ checkPermission();
 
 
 *Copyright © 2024 FTTH Planner Team. Licensed under MIT License.*
+
 
