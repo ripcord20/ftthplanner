@@ -196,7 +196,8 @@ sudo mysql_secure_installation
 sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update
-sudo apt install php8.1 php8.1-mysql php8.1-curl php8.1-json php8.1-mbstring php8.1-xml php8.1-zip libapache2-mod-php8.1 -y
+sudo apt install -y php8.1 php8.1-mysql php8.1-curl php8.1-mbstring php8.1-xml php8.1-zip libapache2-mod-php8.1
+
 
 # Enable Apache modules
 sudo a2enmod rewrite
@@ -942,3 +943,4 @@ checkPermission();
 
 
 *Copyright © 2024 FTTH Planner Team. Licensed under MIT License.*
+
